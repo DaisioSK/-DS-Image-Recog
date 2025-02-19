@@ -11,17 +11,17 @@ This repository contains Jupyter Notebooks for training and evaluating handwritt
 - Example code snippet:
   ```python
   import tensorflow as tf
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from tensorflow.keras.regularizers import l2
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from sklearn.model_selection import train_test_split
-
-import numpy as np
-import matplot
+  from tensorflow.keras.datasets import mnist
+  from tensorflow.keras.utils import to_categorical
+  from tensorflow.keras.models import Sequential
+  from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+  from tensorflow.keras.regularizers import l2
+  from tensorflow.keras.callbacks import EarlyStopping
+  from tensorflow.keras.preprocessing.image import ImageDataGenerator
+  from sklearn.model_selection import train_test_split
+  import numpy as np
+  import matplot
+  
   ```
 
 ### 2. EMNIST Notebook (`EMNIST.ipynb`)
@@ -64,6 +64,14 @@ To execute the notebooks:
    jupyter notebook
    ```
 2. Navigate to the desired notebook and run the cells.
+
+## Running the Python Script
+To execute the notebooks:
+1. Navigate to the src folder
+2. Execute the main.py
+   ```bash
+   python main.py
+   ```
 
 ## Results
 - The models achieve high accuracy in handwritten digit recognition.
