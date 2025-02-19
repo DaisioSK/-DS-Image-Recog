@@ -1,0 +1,19 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Data files
+data/
+
+# Model files
+models/
+
+# Back Up files
+*.bak
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Anaconda Projects
+.anaconda_projects/
+
