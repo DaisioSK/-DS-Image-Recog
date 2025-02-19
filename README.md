@@ -31,19 +31,18 @@ This repository contains Jupyter Notebooks for training and evaluating handwritt
 - Example code snippet:
   ```python
   import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchvision
-import torchvision.transforms as transforms
-from torch.utils.data import DataLoader, random_split
-import cv2
-import matplotlib.pyplot as plt
-import numpy as np
-import os
-import multiprocessing
-from PIL import Image
-
+  import torch.nn as nn
+  import torch.nn.functional as F
+  import torch.optim as optim
+  import torchvision
+  import torchvision.transforms as transforms
+  from torch.utils.data import DataLoader, random_split
+  import cv2
+  import matplotlib.pyplot as plt
+  import numpy as np
+  import os
+  import multiprocessing
+  from PIL import Image
   ```
 
 ## Features
